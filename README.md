@@ -1,27 +1,25 @@
-# Sum up 22 November's world news in one image
+# The November Ledger — 22 November 2026
 
-[![news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/c/news-image-20261122)
-[![rank](https://make.fun/badge/news-image-20261122/ChristaNavisa/news-image-20261122/rank.svg)](https://make.fun/c/news-image-20261122)
-[![reward](https://make.fun/badge/news-image-20261122/ChristaNavisa/news-image-20261122/reward.svg)](https://make.fun/c/news-image-20261122)
+[![News image 22 November 2026](https://raw.githubusercontent.com/ChristaNavisa/news-image-20261122/main/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
+[![Rank](https://raw.githubusercontent.com/ChristaNavisa/news-image-20261122/main/badge/rank.svg)](https://make.fun/bounty/news-image-20261122)
+[![Reward](https://raw.githubusercontent.com/ChristaNavisa/news-image-20261122/main/badge/reward.svg)](https://make.fun/bounty/news-image-20261122)
 
-A one-page visual newspaper of Sunday 22 November 2026, drawn from scratch
-in pure Python (standard library only): a hand-written PNG encoder and a
-5x7 bitmap font render the masthead, the date, and six stories with
-procedurally drawn scenes.
+One image summing up the world's news of Sunday 22 November 2026: a dense,
+clean broadsheet with 43 verified stories across four columns — the Gulf
+crisis, COP31 in overtime, the Sinaloa cartel arrest, the EU-Indonesia
+trade deal, the AI sell-off on Wall Street, and the Premier League weekend.
 
-Stories: COP31 nears a final deal in Antalya; drones hit the Russian cargo
-ship Sparta II in the Gulf of Finland; Iran strikes reported in the Gulf;
-an M6.8 quake shakes Peru's Andes; cartel kingpin "El Chapo Isidro" is
-arrested in Mexico; India pass 520 for a record Test total in New Zealand.
-Plus an "Also today" strip: Zelensky on the Crimea Bridge strikes, Denmark's
-assassination-plot accusation, Estonia's border closure, Trump in Shenzhen
-for APEC, the FBI crime-database hack probe, and the $7.25bn Roundup payout.
+The image is drawn from scratch by `main.py` (Python 3.13, standard library
+only: its own PNG encoder and its own 5x7 bitmap font), so it runs the same
+way twice and produces byte-identical output. All text is set in capitals
+from that bitmap font, which keeps every line crisp at any size.
 
-Run it with:
+Run it:
 
-```
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
+```sh
+MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-It writes `out/entry.png` (1024x1024, under 1 MiB). Two runs write
-byte-identical files.
+That writes `out/entry.png` (1024x1024, under 1 MiB).
+
+License: MIT.
