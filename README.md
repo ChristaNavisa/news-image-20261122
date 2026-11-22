@@ -5,31 +5,42 @@
 [![reward](https://make.fun/badge/news-image-20261122/ChristaNavisa/news-image-20261122/reward.svg)](https://make.fun/bounty/news-image-20261122)
 
 One image summing up the world's news of Sunday 22 November 2026:
-a one-day timeline infographic, not a newspaper. A night-sky
-canvas carries a sun arc from moon to sun, and the day is told
-as six chapters — NIGHT, DAWN, MORNING, MIDDAY, AFTERNOON,
-EVENING — each a row of six pictogram-led story cells joined by
-a timeline spine that snakes left-to-right, then right-to-left.
+a classic broadsheet front page, "THE WORLD IN ONE DAY".
 
-36 verified stories across 7 regions, each with a drawn
-pictogram, a two-line headline and a dated sub-line: the COP31
-talks in double overtime in Antalya (draft drops fossil fuels,
-concedes 1.5C), Russia's 186-drone night barrage on Ukraine and
-the Sparta II burning in the Baltic, Iran's strikes on Bahrain,
-Poland's airspace breach, Hong Kong's Election Committee polls
-(89.8% turnout by 1pm), the capture of "El Chapo Isidro", the
-Geneva killer-robot talks, and Alcaraz reaching the ATP final.
+39 verified stories across 7 regions, each dated Sunday 22 November
+2026 and checked against wire reporting that day (Reuters, AP, AFP,
+BBC, The Guardian, Al Jazeera, Ukrainian Air Force, the Hong Kong
+government, ESA, F1, Cricinfo, Vatican News):
 
-Every story was checked against reporting from 22 November
-2026 (Reuters, AP, the COP31 presidency, the Hong Kong
-Elections Office, Finnish Border Guard); claims are attributed
-where they are claims, and the image carries its own date and
-source line.
+- A huge dated masthead, a six-number stats strip and a region strip.
+- Three illustrated leads with drawn scenes, a headline, a 2-3 sentence
+  body, a source line and a certainty tag: COP31 collapses with no deal
+  after the EU rejects a text that never names fossil fuels; Russia
+  fires 186 drones at Ukraine overnight, 161 downed, a block collapses
+  in Dymer with 14 missing; Iran claims two US Patriot radars hit in
+  Bahrain, Bahrain denies it.
+- Fifteen illustrated cards: Hong Kong's record 98.79% Election
+  Committee turnout, Verstappen winning the Las Vegas GP, India's
+  record 720/9 in Wellington, the Sparta II still burning off Finland,
+  the Cikande candy-factory fire, the Nigeria funeral-boat toll rising
+  to 24, the Pope's lunch for 1,300 poor guests, BepiColombo reaching
+  Mercury orbit, Iran's rolling power cuts, Wembanyama's 50 points,
+  Bolsonaro in intensive care, the FBI database-hack probe, Belgian
+  flights grounded, the Manipur toxic-liquor toll at 19, and Hamas
+  seeking urgent talks on Gaza.
+- A world map with numbered pins matching the story numbers, 21 more
+  dated stories under "ALSO ON SUNDAY 22 NOVEMBER", and a DATE CHECK
+  box listing the near-miss events left out because they happened on
+  other days (the 400-drone barrage, the Kryvyi Rih double-tap,
+  "El Chapo Isidro" captured, the Peru quake, and more).
+- Certainty tags on every story: CONFIRMED (official or 2+ outlets),
+  REPORTED (carried by the day's wires), CLAIM (one side's account,
+  labelled as such), FORECAST (still to happen when drawn).
 
 The image is drawn from scratch by `main.py` (Python 3.13,
 standard library only: its own PNG encoder, its own 5x7 bitmap
-font, its own pictograms and sun arc, fixed-seed grain), so it
-runs the same way twice and produces byte-identical output.
+font, its own drawn scenes and world map), so it runs the same way
+twice and produces byte-identical output.
 
 Run it:
 
@@ -37,7 +48,7 @@ Run it:
 MAKEFUN_OUTPUT_DIR=out python3 main.py
 ```
 
-That writes `out/entry.png` (1024x1024, about 234 KB, under the
+That writes `out/entry.png` (1024x1024, about 50 KB, under the
 1 MiB cap). Without `MAKEFUN_OUTPUT_DIR` it writes
 `/output/entry.png`, as the grader runs it.
 
