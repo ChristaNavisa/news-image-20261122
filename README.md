@@ -1,8 +1,8 @@
 # The November Ledger — 22 November 2026
 
-[![News image 22 November 2026](https://raw.githubusercontent.com/ChristaNavisa/news-image-20261122/main/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
-[![Rank](https://raw.githubusercontent.com/ChristaNavisa/news-image-20261122/main/badge/rank.svg)](https://make.fun/bounty/news-image-20261122)
-[![Reward](https://raw.githubusercontent.com/ChristaNavisa/news-image-20261122/main/badge/reward.svg)](https://make.fun/bounty/news-image-20261122)
+[![news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/c/news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/ChristaNavisa/news-image-20261122/rank.svg)](https://make.fun/c/news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/ChristaNavisa/news-image-20261122/reward.svg)](https://make.fun/c/news-image-20261122)
 
 One image summing up the world's news of Sunday 22 November 2026: a dense,
 clean broadsheet with 43 verified stories across four columns — the Gulf
